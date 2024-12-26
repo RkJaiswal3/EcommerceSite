@@ -76,7 +76,6 @@ app.post("/login", async (req, res) => {
     // Generate JWT token if login is successful
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
 
-    // Return success response with the token
     res.status(200).json({ success: true, message: "Login successful", token });
   } catch (error) {
     console.error("Login error:", error);
