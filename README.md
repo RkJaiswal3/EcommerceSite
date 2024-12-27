@@ -10,6 +10,8 @@ Currently, two official plugins are available:
 To access the project you have follow steps:
 
 install the node.js in your computer.
+
+Download the code or ZIP(extract the zip folder) and open in code editor, then locate in main project folder after run the following command.
 - npm install
 - cd backend
 - npm install
