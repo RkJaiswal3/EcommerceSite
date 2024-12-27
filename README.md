@@ -13,7 +13,8 @@ To access the project you have follow steps:
 - cd backend
 - npm install
 - nodemon index.js
-for starting the forntend code you have to locate in main project and write the below command in the terminal
+
+For starting the forntend code you have to locate in main project and write the below command in the terminal
   - npm run dev
  
 Then you have to signup yourself or registered to login.
