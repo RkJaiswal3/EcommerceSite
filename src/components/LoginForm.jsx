@@ -31,7 +31,7 @@ function LoginForm() {
       if (json.success === true) {
         // Check if 'success' is true
         localStorage.setItem("token", json.token);
-        alert("Successfully Logged In!");
+        alert(json.message);
         navigate("/products");
       } else {
         alert(json.message || "Invalid credentials");
