@@ -8,7 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+<<<<<<< HEAD
     "start": "concurrently \"cd backend && nodemon server.js\" \"npm run dev\""
+=======
+    "start": "react-scripts start"
+    
+    
+>>>>>>> 0f92f4b1a8ef2e95a990ec85f8179cc7256cbd30
   },
   "dependencies": {
     "axios": "^1.7.9",
